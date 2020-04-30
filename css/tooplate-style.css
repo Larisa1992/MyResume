@@ -84,13 +84,14 @@ h2 {
   max-height: 2em;
 } 
 
- /* #experience .mb-4:not(.mobile-mt-2)::after {
-  content: url("../images/project/experience.svg");
+  #experience .mb-4:not(.mobile-mt-2)::after {
+  content: url("../images/project/portfel.svg");
   position: absolute;
+  margin-left: 0.5em;
 
-  width: 2em;
+  width: 1.5em;
   max-height: 2em;
-} */
+}
 
 h3 {
   color: #484848;
@@ -286,6 +287,13 @@ b, strong {
   font-size: 16px;
   font-weight: normal;
   display: block;
+
+}
+
+.icon-text {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 0px;
 }
 
 .color-mode {
@@ -476,15 +484,18 @@ b, strong {
   color: #f7f3f3;
 }
 
-.social-links .uil {
+.contact-form div {
+  margin-top: 14rem;  
+} 
+/* .social-links .uil {
   color: #f7f3f3;
   font-size: 20px;
-  display: block;
+  display: inline;
   margin: 5px 0;
-}
+} 
 .social-links .uil:hover {
   color: #ffc200;
-}
+} */
 
 @media (min-width: 1270px) {
   .owl-theme .owl-dots {
@@ -583,9 +594,12 @@ b, strong {
   .contact-info {
     flex-direction: column;
   }
-
-  .social-links li {
+  .social-links ul {
+    display: flex;
+    flex-direction: row;
+  }
+  /* .social-links li {
     display: inline-block;
     vertical-align: top;
-  }
+  } */
 }
