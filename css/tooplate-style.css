@@ -138,8 +138,12 @@ b, strong {
   position: relative;
 }
 
-.animated-item {
+.dark-mode .animated-item {
   color: #ffc200;
+}
+
+.animated-item {
+  color: #a31390;
 }
 
 .animated-item {
@@ -210,9 +214,9 @@ b, strong {
   padding-bottom: 0;
 }
 
-.navbar-brand {
+/* .navbar-brand {
   font-weight: bold;
-}
+} */
 
 .navbar-expand-sm .navbar-nav .nav-link {
   padding: 0 20px;
@@ -320,7 +324,8 @@ b, strong {
 }
 
 .dark-mode {
-  background: #0c0c0d;
+  /* background: #0c0c0d; */
+  background: #006bb3;
 }
 .dark-mode .navbar-light .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.8);
@@ -333,15 +338,22 @@ b, strong {
   border-bottom: 1px solid #1f1f1f;
 }
 .dark-mode .small-text {
-  background: #0d0c15;
+  /* background: #0d0c15; */
+  background: #006bb3;
   color: #ffffff;
 }
 .dark-mode .feature-card .uil,
 .dark-mode .navbar-light .navbar-brand,
 .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
-.dark-mode .color-mode {
+.dark-mode .color-mode,
+.dark-mode .timeline-info small {
   color: #ffffff;
 }
+
+.dark-mode p {
+  color:#e2d6d6
+}
+
 .dark-mode .owl-carousel .owl-nav button.owl-next,
 .dark-mode .owl-carousel .owl-nav button.owl-prev,
 .dark-mode .owl-carousel button.owl-dot {
@@ -447,21 +459,21 @@ b, strong {
 .contact-form {
   position: relative;
 }
-.contact-form .form-control {
+/* .contact-form .form-control {
   background: transparent;
   border-radius: 2px;
   outline: none;
   box-shadow: none;
   font-weight: bold;
   margin: 16px 0;
-}
+} */
 .contact-form .form-control:not(textarea) {
   height: 48px;
 }
 .contact-form .form-control:hover, .contact-form .form-control:focus {
   border-color: #ffc200;
 }
-.contact-form .submit-btn {
+/* .contact-form .submit-btn {
   background: #ffc200;
   border-radius: 50px;
   color: #ffffff;
@@ -472,7 +484,7 @@ b, strong {
 }
 .contact-form .submit-btn:hover {
   background: #474559;
-}
+} */
 
 .contact-info {
   background: #474559;
@@ -486,7 +498,10 @@ b, strong {
 
 .contact-form div {
   margin-top: 14rem;  
-} 
+}
+.contact-form div a {
+  margin-right: 2rem;
+}
 /* .social-links .uil {
   color: #f7f3f3;
   font-size: 20px;
