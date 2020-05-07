@@ -497,7 +497,7 @@ b, strong {
 }
 
 .contact-form div {
-  margin-top: 14rem;  
+  margin-top: 17rem;  
 }
 .contact-form div a {
   margin-right: 2rem;
@@ -538,6 +538,10 @@ b, strong {
 
   .contact-info {
     padding: 0 2rem;
+  }
+
+  .contact-form div {
+    margin-top: 1rem;  
   }
 }
 @media (max-width: 767px) {
